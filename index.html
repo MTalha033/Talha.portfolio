@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQ.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- header (navigation Bar) -->
+    <header class="header">
+        <a href="" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+        <div class="moon">
+            <i class='bx bxs-moon' ></i>
+        </div>
+        <div class="menubar" onclick="togglemenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+
+
+    <!-- home section -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hello, I am</h2>
+            <h1>Muhammad Talha</h1>
+            <p>A skilled web developer specializing in HTML, CSS, JavaScript, WordPress, and Bootstrap, I create responsive and user-centric websites tailored to your needs.</p>
+
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com/profile.php?id=61559120372759&mibextid=ZbWKwL" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/mtalha033?utm_source=qr&igsh=MTZha2l3ZnlkM3NhNw==" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-talha-60ba21294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="hbtn">
+                <a href="updatedTalhaCV.pdf" class="btn" download="download">Download CV</a>
+            </div>
+        </div>
+
+        <div class="homeright">
+            <div class="himg">
+                <img src="img/homeimg.png" alt="">
+            </div>
+            <div class="skillset ">
+                <div class="skill">Web Developer</div>
+                <div class="skill">Wordpress Dev</div>
+                <div class="skill">Bootstrap Dev</div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+
+       <!-- About Section -->
+       <section class="about" id="about">
+           <div class="aboutinfo">
+               <div class="myself">
+                <h2>About Me</h2>
+                <h3>Web Developer | Wordpress Developer | Bootstrap Developer</h3>
+                <p>Hi, I'm M Talha, a passionate web developer with a strong foundation in front-end technologies (HTML, CSS, JavaScript) and WordPress development. I also specialize in Bootstrap to build mobile-first, responsive websites. With a keen eye for detail and a commitment to delivering high-quality solutions, I work closely with clients to understand their vision and turn it into a functional, engaging online presence. Whether you're looking for a custom website or need to enhance an existing one, I offer professional and reliable services that cater to all your web development needs.</p>
+                <div class="abtn">
+                    <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="aboutimg">
+                <img src="img/aboutimg.png" alt="">
+            </div>
+        </div>
+        <div class="myskills">
+            <h2>My Skills</h2>
+            <div class="skillboxes">
+                <div class="box" id="box1">
+                    <i  style="color: #E44D26;" class='bx bxl-html5'></i>
+                    <h3>HTML 5</h3>
+                    <p>I build websites with clean, semantic HTML5, ensuring a solid foundation that's SEO-friendly, accessible, and easy to maintain.</p>
+                </div>
+                <div class="box" id="box2">
+                    <i style="color: #1572B6;" class='bx bxl-css3' ></i>
+                    <h3>CSS 3</h3>
+                    <p>Using modern CSS3 techniques, I create responsive, visually engaging designs that adapt seamlessly to all devices and screen sizes.</p>
+                </div>
+                <div class="box" id="box3">
+                    <i style="color: #563D7C;" class='bx bxl-bootstrap' ></i>
+                    <h3>Bootstrap</h3>
+                    <p>With Bootstrap, I develop fast, mobile-first websites using a grid system that ensures responsive, consistent layouts across devices.</p>
+                </div>
+                <div class="box" id="box4">
+                    <i style="color: #F7DF1E;" class='bx bxs-file-js' ></i>
+                    <h3>JavaScript</h3>
+                    <p>I enhance websites with custom JavaScript for dynamic, interactive features that improve user experience and engagement.</p>
+                </div>
+                <div class="box" id="box5">
+                    <i style="color: #21759B;" class='bx bxl-wordpress' ></i>
+                    <h3>Wordpress</h3>
+                    <p>I specialize in custom WordPress themes and plugins, building secure, scalable sites that are easy to manage and fully optimized.</p>
+                </div>
+                <div class="box" id="box6">
+                    <i style="color: #F24E1E;" class='bx bxl-figma' ></i>
+                    <h3>Figma</h3>
+                    <p>Using Figma, I design intuitive, user-centered interfaces with pixel-perfect layouts and prototypes to visualize your website’s user experience.</p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Services -->
+
+        <section class="services" id="services">
+            <h2>Services I Offer</h2>
+            <div class="serviceboxes">
+                <div class="box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>I create custom websites that are fast, secure, and optimized for both performance and user experience, tailored to your unique needs.</p>
+                </div>
+                <div class="box">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Design</h3>
+                    <p>I design visually appealing and functional websites that prioritize user experience, ensuring your site is both beautiful and easy to navigate.</p>
+                </div>
+                <div class="box">
+                    <i  class='bx bxl-bootstrap' ></i>
+                    <h3>Bootstrap Dev</h3>
+                    <p>I build responsive, mobile-first websites quickly and efficiently using Bootstrap’s powerful grid system and pre-designed components.</p>
+                </div>
+                <div class="box">
+                    <i  class='bx bxl-wordpress' ></i>
+                    <h3>Wordpress Development</h3>
+                    <p>I provide end-to-end WordPress development, from custom themes and plugins to building complete, scalable websites with a focus on ease of use.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+         <section class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolioboxes">
+                <div class="box">
+                    <h3>Portfolio Site</h3>
+                    <p>This is my earlier portfolio website. While it's a bit more basic, it highlights my initial work in web design and development. You can see how my skills have evolved over time.</p>
+                    <a href="https://mtalha033.github.io/MTalhaPortfolio.com/" target="_blank"><span>Go to site</span><i class='bx bx-right-top-arrow-circle'></i></a>
+                </div>
+                <div class="box">
+                    <h3>Currency Converter</h3>
+                    <p>A real-time currency converter built using JavaScript and an external API. It fetches the latest exchange rates and allows users to easily convert between different currencies.</p>
+                    <a href="https://mtalha033.github.io/Currency-Converter/" target="_blank"><span>Go to site</span><i class='bx bx-right-top-arrow-circle'></i></a>
+                </div>
+                <div class="box">
+                    <h3>Tic Tac Toe</h3>
+                    <p>A classic Tic-Tac-Toe game where you can play against another player. It features a 3x3 grid, alternating turns, and automatic win detection. A great demonstration of JavaScript logic and event handling.</p>
+                    <a href="https://mtalha033.github.io/Tic-Tac-Toe" target="_blank"><span>Go to site</span><i class='bx bx-right-top-arrow-circle'></i></a>
+                </div>
+                <div class="box">
+                    <h3>Calculator</h3>
+                    <p>A simple yet functional calculator built using HTML, CSS, and JavaScript. It supports basic operations like addition, subtraction, multiplication, and division, offering a clean and intuitive user interface.</p>
+                    <a href="https://mtalha033.github.io/calculator/" target="_blank"><span>Go to site</span><i class='bx bx-right-top-arrow-circle'></i></a>
+                </div>
+            </div>
+         </section>
+    
+
+
+         <!-- contact -->
+         <section class="contact" id="contact">
+            <h2>CONTACT Me</h2>
+            <div class="contactdetails">
+                <div class="leftcontact">
+                <h3>GET IN TOUCH</h3>
+               <form action="https://api.web3forms.com/submit" method="POST">
+                   <input type="hidden" name="access_key" value="7654efc3-c5df-4c76-944a-9dab65d92847">
+                   <input type="text" name="name" placeholder="ENTER YOUR NAME" required>
+                   <input type="email" name="email" placeholder="ENTER YOUR EMAIL" required>
+                   <input type="text" name="country" placeholder="ENTER YOUR COUNTRY NAME" required>
+                   <textarea name="message" id="" type="textarea" placeholder="DROP YOUR MESSAGE HERE" rows="10" required></textarea>
+                   <div class="contactbtn">
+                       <button type="submit" class="btn" >SUBMIT</button>
+                       <button type="reset" class="btn">RESET</button>
+                   </div>
+               </form>
+           </div>
+           <DIV class="rightcontact">
+               <img src="img/contactimg.png" alt="">
+           </DIV>
+       </div>
+        </section>
+       
+        <footer>
+            <p>&copy; Muhammad Talha , all rights reserved </p>
+        </footer>
+    <script src="imglist.js"></script>  
+    <script src="script.js"></script>
+</body>
+</html>

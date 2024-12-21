@@ -1,0 +1,175 @@
+@media (max-width:850px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        position: absolute; 
+        top: 80px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: var(--text-color);
+        transition: all .5s;
+
+    }
+    .header .logo{
+        font-weight: 700;
+    }
+    .navbar li{
+        margin: 25px 0px 0px 0px;
+    }
+    .navbar li a{
+       font-size: 20px;
+       font-weight: 500;
+    }
+
+    .menubar{
+        display: block;
+        cursor: pointer;
+    }
+
+    .moon i{
+        font-size: 30px;
+        margin: 0px 15px 0px 0px;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: end;
+        padding: 4.5rem 0px 2px 0px;
+        margin-top: 2rem;
+    }
+    .home .home-content {
+        width: 90vw;
+        margin: 2px 0px 10px 0px
+    }
+    .social-media-icons{
+        margin: 5px 0px;
+        text-align: center;
+    }
+
+    .home-content .social-media-icons a{
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+    }
+    .hbtn{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .btn{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .home .homeright {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+         z-index: 0;
+         overflow: hidden;
+         margin-top: 0px;
+    }
+    .home .homeright .skillset {
+        border-top: 110px solid transparent;
+        border-right: 50vw solid var(--main-color);
+        border-bottom: 110px solid var(--main-color);
+        border-left: 50vw solid  var(--main-color);
+        position: relative;
+        left: 0;
+    }
+    .home .homeright .skillset .skill {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .home .homeright .himg {
+        display: none;
+    }
+
+    @keyframes flow {
+        
+0% {
+    left: 200px;
+    top: -50px;
+    transform: rotate(20deg);
+}
+25% {
+    left: -65px;
+    transform: rotate(0deg);
+    top: -100px;
+}
+50% {
+    left: -65px;
+    transform: rotate(0deg);
+    top: -100px;
+}
+75% {
+    left: -65px;
+    transform: rotate(0deg);
+    top: -100px;
+}
+100% {
+    left: -400px;
+    transform: rotate(-20deg);
+    top: -50px;
+}
+        
+    }
+
+    /* About section */
+    .about .aboutinfo{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about .aboutinfo .myself{
+        width: 90vw;
+        margin-left: 0px;
+    }
+    .about .myskills .skillboxes .box{
+        width: 90vw;
+    }
+
+    /* services */
+    .services .serviceboxes .box{
+        width: 90vw;
+    }
+
+    /* portfolio */
+    .portfolio .portfolioboxes .box{
+        width: 90vw;
+        background-color: rgba(31, 30, 30, 0.7);
+    }
+    .portfolio .portfolioboxes .box p{
+        opacity: 1;
+    }
+    .portfolio .portfolioboxes .box a span{
+        opacity: 1;
+    }
+    /* contact section */
+    .rightcontact {
+        display: none;
+    }
+    .leftcontact{
+        width: 95vw;
+    }
+    .leftcontact form{
+        width: 100%;
+    }
+    .contact h3{
+        width: 100%;
+    }
+
+
+}
+@media only screen and (max-width:374px){
+    .home{
+        padding: 2rem 0px 0px 0px;
+        margin-top: 3rem;
+    }
+    .home-content h1 {
+        font-size: 36px;
+    }
+}
